@@ -20,7 +20,6 @@ TIMEVIEW's B-spline basis.
 - `mckan_pykan/data.py`
   - `MCKANDataset` prepares static inputs `X`, dynamic inputs `Z`, and spline
     basis matrices `Phis` (from TIMEVIEW's `BSplineBasis`).
-  - Supports `dynamic_mode='aggregate'` or `dynamic_mode='history'`.
 - `mckan_pykan/model.py`
   - `MCKANPyKAN` defines the static and dynamic KAN encoders.
   - `forward(X_static, Z_dynamic, Phis)` produces trajectories from coefficients
